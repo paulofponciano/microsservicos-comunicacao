@@ -4,3 +4,6 @@ scrape_configs:
     static_configs:
       - targets: ['otel-collector:8889']
       - targets: ['otel-collector:8888']
+      - targets: ['goapp:8080']
+      - targets: ['goapp2:8181']
+      - targets: ['goapp3:8282']
